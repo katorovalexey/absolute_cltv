@@ -19,6 +19,7 @@ if __name__ == '__main__':
 
     # deps_graph(task, plotly=False, fig_path='docs/images/deps_graph.png')
     # g = deps_graph(task, plotly=True, fig_path='reports/deps_graph.html')
+
     g = deps_graph(task)
     for node in g.nodes:
         del g.nodes[node]['task']
