@@ -1,0 +1,20 @@
+{
+  "categorical": [
+    "cd",
+    "group",
+    "nflag",
+    "segm",
+    "subsegm"
+  ],
+  "numeric": [
+    "amt",
+    "days",
+    "nv",
+    "pct",
+    "qty",
+    "rate"
+  ],
+  "date": [
+    "dt"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/absolute_cltv.iml" filepath="$PROJECT_DIR$/.idea/absolute_cltv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ai_lab_cltv/.idea/ai_lab_cltv.iml" filepath="$PROJECT_DIR$/../ai_lab_cltv/.idea/ai_lab_cltv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../anton_bakuteev_churn/.idea/anton_bakuteev_churn.iml" filepath="$PROJECT_DIR$/../anton_bakuteev_churn/.idea/anton_bakuteev_churn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../anton_bakuteev_cross_selling/.idea/anton_bakuteev_cross_selling.iml" filepath="$PROJECT_DIR$/../anton_bakuteev_cross_selling/.idea/anton_bakuteev_cross_selling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cltv_tools/.idea/cltv_tools.iml" filepath="$PROJECT_DIR$/../cltv_tools/.idea/cltv_tools.iml" />
+    </modules>
+  </component>
+</project>

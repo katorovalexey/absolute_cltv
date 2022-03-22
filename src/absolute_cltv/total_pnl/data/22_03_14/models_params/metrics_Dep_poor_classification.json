@@ -1,0 +1,1 @@
+{"all_features": {"ROC_AUC": 0.8651820204797416, "Precision_AUC": 0.09548124861626388, "sum": 1.4811477863522382}, "only_important_features": {"ROC_AUC": 0.8907812144273577, "Precision_AUC": 0.23178772408069165, "sum": 1.5029833714367704}}

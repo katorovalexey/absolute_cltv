@@ -1,0 +1,59 @@
+{
+  "count_predict_months": 12,
+  "count_history_months": 6,
+  "number_of_epk_bins": 300,
+  "report_dt_borders_list": [
+    [
+      "2020-06-30",
+      "2020-06-30"
+    ],
+    [
+      "2020-09-30",
+      "2020-09-30"
+    ]
+  ],
+  "epk_bins_borders_list": [
+    [
+      1,
+      10
+    ],
+    [
+      20,
+      20
+    ]
+  ],
+  "train": {
+    "count_predict_months": 12,
+    "count_history_months": 6,
+    "number_of_epk_bins": 300,
+    "report_dt_borders_list": [
+      [
+        "2020-06-30",
+        "2020-06-30"
+      ]
+    ],
+    "epk_bins_borders_list": [
+      [
+        1,
+        10
+      ]
+    ]
+  },
+  "test": {
+    "count_predict_months": 12,
+    "count_history_months": 6,
+    "number_of_epk_bins": 300,
+    "report_dt_borders_list": [
+      [
+        "2020-09-30",
+        "2020-09-30"
+      ]
+    ],
+    "epk_bins_borders_list": [
+      [
+        20,
+        20
+      ]
+    ]
+  }
+}

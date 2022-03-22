@@ -1,0 +1,525 @@
+{
+  "products": {
+    "AccCurr": {
+      "rich_regression_valid_all_features": {
+        "mae": 575.0083033416078,
+        "rmse": 8124.707916346012,
+        "sum": 1.0533449895349865
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 401.21044890456074,
+        "rmse": 2029.0481438918077,
+        "sum": 0.9994946228885757
+      },
+      "rich_regression_test_model": {
+        "mae": 876.663841396119,
+        "rmse": 9326.18106536191,
+        "sum": 1.4477022564308646
+      },
+      "rich_regression_test_naive": {
+        "mae": 759.0262934041625,
+        "rmse": 5017.882188756209,
+        "sum": 0.07942929610902673
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 1591.50609015877,
+        "rmse": 5249.93869379585,
+        "sum": 1.1344908011287997
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 1457.0271902427162,
+        "rmse": 6901.0216140848515,
+        "sum": 0.9891816397439096
+      },
+      "poor_regression_test": {
+        "mae": 1798.215624938021,
+        "rmse": 6469.393287961036,
+        "sum": 0.9230555558485043
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.8521951960571605,
+        "Precision_AUC": 0.39106140829353453,
+        "sum": 1.0038505915210965
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.8841915544048344,
+        "Precision_AUC": 0.510258395223566,
+        "sum": 1.044337489407622
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.8569907384669404,
+        "Precision_AUC": 0.8569907384669404,
+        "sum": 1.1120678056751014
+      },
+      "poor_test_model": {
+        "mae": 154.68238008695803,
+        "rmse": 1673.0664483770001,
+        "sum": 0.9014111967740867
+      },
+      "poor_test_naive": {
+        "mae": 89.77270430619956,
+        "rmse": 1679.5566600629165,
+        "sum": 0.0
+      },
+      "product_total_test_model": {
+        "mae": 592.3436141639552,
+        "rmse": 7336.73641705942,
+        "sum": 1.40345567272246
+      },
+      "product_total_test_naive": {
+        "mae": 495.47058910223,
+        "rmse": 4046.523028968784,
+        "sum": 0.0729959581711959
+      }
+    },
+    "Dep": {
+      "rich_regression_valid_all_features": {
+        "mae": 2924.2011004216715,
+        "rmse": 43280.816914757226,
+        "sum": 0.9120391566778089
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 2050.4878245226364,
+        "rmse": 5941.979271820769,
+        "sum": 1.0037191946806603
+      },
+      "rich_regression_test_model": {
+        "mae": 3927.2448418550593,
+        "rmse": 86281.5837326242,
+        "sum": 0.6553529793946368
+      },
+      "rich_regression_test_naive": {
+        "mae": 5645.031851000241,
+        "rmse": 86790.47195533437,
+        "sum": 0.06215245017806002
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 1851.030947359134,
+        "rmse": 7171.166323435554,
+        "sum": 1.415713870882525
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 1526.6824994072315,
+        "rmse": 4190.934004992797,
+        "sum": 1.039292041647717
+      },
+      "poor_regression_test": {
+        "mae": 1932.2610309243307,
+        "rmse": 6804.5408445940875,
+        "sum": -0.25557718322060075
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.8651820204797416,
+        "Precision_AUC": 0.09548124861626388,
+        "sum": 1.4811477863522382
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.8907812144273577,
+        "Precision_AUC": 0.23178772408069165,
+        "sum": 1.5029833714367704
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.8735195675940881,
+        "Precision_AUC": 0.8735195675940881,
+        "sum": 1.7144291253050639
+      },
+      "poor_test_model": {
+        "mae": 33.402951058347625,
+        "rmse": 672.3504199876315,
+        "sum": 0.8489082914694213
+      },
+      "poor_test_naive": {
+        "mae": 20.90753825527007,
+        "rmse": 671.8125894894079,
+        "sum": 0.0
+      },
+      "product_total_test_model": {
+        "mae": 279.33029096399605,
+        "rmse": 21693.41177919683,
+        "sum": 0.6627975037448045
+      },
+      "product_total_test_naive": {
+        "mae": 376.1160881455911,
+        "rmse": 21821.229058036595,
+        "sum": 0.05976194265948979
+      }
+    },
+    "Oms": {
+      "rich_regression_valid_all_features": {
+        "mae": 377.44744908313123,
+        "rmse": 1368.2025416569445,
+        "sum": 0.9784628605222647
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 238.8466518195893,
+        "rmse": 721.2955612399733,
+        "sum": 1.0090158711160206
+      },
+      "rich_regression_test_model": {
+        "mae": 1154.9618888651676,
+        "rmse": 7831.320749521605,
+        "sum": 1.0193202543048903
+      },
+      "rich_regression_test_naive": {
+        "mae": 1354.1786978349407,
+        "rmse": 7462.930168464711,
+        "sum": 0.014785012776742726
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 275.48197862109777,
+        "rmse": 656.4167423881389,
+        "sum": -2.639451772037914
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 170.93642270951096,
+        "rmse": 367.77248920467594,
+        "sum": -0.6167161140442317
+      },
+      "poor_regression_test": {
+        "mae": 333.45362739596686,
+        "rmse": 722.9845936618061,
+        "sum": -2866.5491457288495
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.8568927919750327,
+        "Precision_AUC": 0.011468664396010497,
+        "sum": 6.541090535282879
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.9256747041488287,
+        "Precision_AUC": 0.3846144554892119,
+        "sum": 7.353632500884876
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.8875850409022575,
+        "Precision_AUC": 0.8875850409022575,
+        "sum": 8.446037060533156
+      },
+      "poor_test_model": {
+        "mae": 0.4597723445784546,
+        "rmse": 18.997633462160824,
+        "sum": -1118.114679652097
+      },
+      "poor_test_naive": {
+        "mae": 0.26927724787539775,
+        "rmse": 18.93289460048958,
+        "sum": -0.0
+      },
+      "product_total_test_model": {
+        "mae": 3.6730515966446537,
+        "rmse": 413.5892515894958,
+        "sum": 1.0514746428883999
+      },
+      "product_total_test_naive": {
+        "mae": 4.037558819728031,
+        "rmse": 394.17257251120697,
+        "sum": 0.014785437572206071
+      }
+    },
+    "PersCredit": {
+      "rich_regression_valid_all_features": {
+        "mae": 18472.89489141435,
+        "rmse": 74616.73049944708,
+        "sum": 0.8203271838456845
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 13302.851764974059,
+        "rmse": 44039.692862603544,
+        "sum": 1.005091402962607
+      },
+      "rich_regression_test_model": {
+        "mae": 21530.06866451103,
+        "rmse": 97300.96089856236,
+        "sum": 0.9670630597084824
+      },
+      "rich_regression_test_naive": {
+        "mae": 24930.75182439407,
+        "rmse": 77851.55468328377,
+        "sum": 0.06573051134195364
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 10831.289191248014,
+        "rmse": 46926.45692144461,
+        "sum": 0.9943289533478045
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 5664.271965697851,
+        "rmse": 8915.80454443729,
+        "sum": 1.047583670247281
+      },
+      "poor_regression_test": {
+        "mae": 8521.134412959194,
+        "rmse": 24152.033329142792,
+        "sum": -0.32481346122625
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.9132866990563706,
+        "Precision_AUC": 0.17333799893302887,
+        "sum": 1.2748905974903773
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.9306871534878101,
+        "Precision_AUC": 0.30915274614885474,
+        "sum": 1.3064450503189111
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.9186855439608669,
+        "Precision_AUC": 0.9186855439608669,
+        "sum": 1.268601287126655
+      },
+      "poor_test_model": {
+        "mae": 320.3566438427054,
+        "rmse": 4286.201170026008,
+        "sum": -0.3538375493419388
+      },
+      "poor_test_naive": {
+        "mae": 163.17942355646784,
+        "rmse": 3347.078721916638,
+        "sum": 0.0
+      },
+      "product_total_test_model": {
+        "mae": 1502.782556691718,
+        "rmse": 23348.495256089933,
+        "sum": 0.8676960723586571
+      },
+      "product_total_test_naive": {
+        "mae": 1543.953447106442,
+        "rmse": 18667.274615978284,
+        "sum": 0.06078582220769025
+      }
+    },
+    "Mortgage": {
+      "rich_regression_valid_all_features": {
+        "mae": 19264.677264306443,
+        "rmse": 90485.28278627757,
+        "sum": 1.1721708146239838
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 14142.496680989976,
+        "rmse": 68394.91580399415,
+        "sum": 1.0135130365023532
+      },
+      "rich_regression_test_model": {
+        "mae": 41131.76624839372,
+        "rmse": 160380.61272699482,
+        "sum": 1.942435912001293
+      },
+      "rich_regression_test_naive": {
+        "mae": 33932.97880886713,
+        "rmse": 163928.50425829878,
+        "sum": 0.058188938562762145
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 15329.031134251547,
+        "rmse": 25104.92017390197,
+        "sum": 0.9896242242417018
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 14026.612497535787,
+        "rmse": 43235.54612928851,
+        "sum": 0.9546472302112129
+      },
+      "poor_regression_test": {
+        "mae": 17720.786318450842,
+        "rmse": 39865.66580257795,
+        "sum": 0.9838577986963007
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.907473768996814,
+        "Precision_AUC": 0.04008773692391544,
+        "sum": 2.6670519652160825
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.9356726445889808,
+        "Precision_AUC": 0.26366435798316334,
+        "sum": 2.6390931315247093
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.9175695724498596,
+        "Precision_AUC": 0.9175695724498596,
+        "sum": 2.764690427737109
+      },
+      "poor_test_model": {
+        "mae": 119.12134708167773,
+        "rmse": 2040.8433353656792,
+        "sum": 0.9516997761055224
+      },
+      "poor_test_naive": {
+        "mae": 63.94183807434782,
+        "rmse": 2039.9924248585055,
+        "sum": 0.0
+      },
+      "product_total_test_model": {
+        "mae": 810.0636288278021,
+        "rmse": 20914.91871619995,
+        "sum": 1.8786708596130315
+      },
+      "product_total_test_naive": {
+        "mae": 634.5353645697345,
+        "rmse": 21373.227669177213,
+        "sum": 0.05444382361091979
+      }
+    },
+    "CreditCard": {
+      "rich_regression_valid_all_features": {
+        "mae": 4686.851502532448,
+        "rmse": 19536.435297301574,
+        "sum": 0.8589115789163221
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 2787.7581630901527,
+        "rmse": 8362.810010030169,
+        "sum": 1.0100156553273394
+      },
+      "rich_regression_test_model": {
+        "mae": 4532.082210243746,
+        "rmse": 18431.429405891886,
+        "sum": 0.906760028815037
+      },
+      "rich_regression_test_naive": {
+        "mae": 5535.976032213175,
+        "rmse": 18528.60565191024,
+        "sum": 0.08921852116352602
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 1731.7487115931572,
+        "rmse": 7203.341089832202,
+        "sum": 0.3092474425278364
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 1398.1716508586226,
+        "rmse": 5738.9308689117415,
+        "sum": 0.8864320900669495
+      },
+      "poor_regression_test": {
+        "mae": 1439.0257460333833,
+        "rmse": 6029.108306650084,
+        "sum": -0.6498981972811883
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.9231945663860852,
+        "Precision_AUC": 0.32335707228465294,
+        "sum": 1.3119461612939762
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.9403819552643056,
+        "Precision_AUC": 0.44161535575908006,
+        "sum": 1.3011934339866684
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.9272340077814801,
+        "Precision_AUC": 0.9272340077814801,
+        "sum": 1.188462445485872
+      },
+      "poor_test_model": {
+        "mae": 42.58551895944212,
+        "rmse": 969.342476763503,
+        "sum": 0.8444666683040394
+      },
+      "poor_test_naive": {
+        "mae": 32.79517374932368,
+        "rmse": 948.7837357243226,
+        "sum": -0.0
+      },
+      "product_total_test_model": {
+        "mae": 626.9639877179635,
+        "rmse": 6710.953360127674,
+        "sum": 0.9077637540218079
+      },
+      "product_total_test_naive": {
+        "mae": 749.1205492894338,
+        "rmse": 6743.152209850403,
+        "sum": 0.09065608815088222
+      }
+    },
+    "DebitCard": {
+      "rich_regression_valid_all_features": {
+        "mae": 1051.5346794968184,
+        "rmse": 4477.732863272601,
+        "sum": 0.9989782276864005
+      },
+      "rich_regression_valid_only_important_features": {
+        "mae": 1091.69624413898,
+        "rmse": 5336.445399557765,
+        "sum": 1.0084319011656986
+      },
+      "rich_regression_test_model": {
+        "mae": 1149.6803115152081,
+        "rmse": 5514.125373564433,
+        "sum": 0.9161871654092585
+      },
+      "rich_regression_test_naive": {
+        "mae": 1616.0995370054363,
+        "rmse": 6369.016340287293,
+        "sum": 0.0962488839550145
+      },
+      "poor_regression_valid_all_features": {
+        "mae": 716.4303161118996,
+        "rmse": 3246.9893689953024,
+        "sum": 2.055022941866636
+      },
+      "poor_regression_valid_only_important_features": {
+        "mae": 436.8260267812272,
+        "rmse": 1172.7261410163694,
+        "sum": 1.048746514017124
+      },
+      "poor_regression_test": {
+        "mae": 594.1623159621433,
+        "rmse": 2937.717652111875,
+        "sum": 0.8646287265603062
+      },
+      "poor_classification_valid_all_features": {
+        "ROC_AUC": 0.9456680083448593,
+        "Precision_AUC": 0.5212796933468764,
+        "sum": 1.1303268400562974
+      },
+      "poor_classification_valid_only_important_features": {
+        "ROC_AUC": 0.9591420280898693,
+        "Precision_AUC": 0.5995713304524585,
+        "sum": 1.1868783555442732
+      },
+      "poor_classification_test": {
+        "ROC_AUC": 0.9142939001023233,
+        "Precision_AUC": 0.9142939001023233,
+        "sum": 1.3427796440555626
+      },
+      "poor_test_model": {
+        "mae": 56.57724144289358,
+        "rmse": 512.4448935337559,
+        "sum": 7.829291633050189
+      },
+      "poor_test_naive": {
+        "mae": 14.94644096378876,
+        "rmse": 496.67518488828875,
+        "sum": 0.0
+      },
+      "product_total_test_model": {
+        "mae": 628.1369945731788,
+        "rmse": 4002.9621475604877,
+        "sum": 0.9478501249986442
+      },
+      "product_total_test_naive": {
+        "mae": 852.1544713435866,
+        "rmse": 4618.216456672137,
+        "sum": 0.09580805096349
+      }
+    }
+  },
+  "total": {
+    "test_model_mix": {
+      "mae": 3694.8795659421226,
+      "rmse": 40351.82031733469,
+      "sum": 1.0777553214354736
+    },
+    "test_model_total": {
+      "mae": 3317.6047833782814,
+      "rmse": 58041.09160587359,
+      "sum": 0.8084751499968017
+    },
+    "test_naive": {
+      "mae": 5531.245262537672,
+      "rmse": 142228.14128064047,
+      "sum": 0.8618764535851146
+    }
+  }
+}
